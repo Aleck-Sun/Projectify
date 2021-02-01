@@ -1,0 +1,7 @@
+.projects {
+  background-color:rgb(195, 210, 224);
+  display: flex;
+  flex-wrap: wrap;
+  min-height: 90vh;
+  justify-content: center;
+}

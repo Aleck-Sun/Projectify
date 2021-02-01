@@ -1,0 +1,8 @@
+.post {
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgb(195, 210, 224);
+    min-height: 90vh;
+    flex-wrap: wrap;
+}

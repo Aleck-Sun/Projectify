@@ -1,0 +1,54 @@
+.ProjectPost {
+    border-radius: 20px;
+    background-color:white;
+    padding:20px;
+    margin: 60px;
+    height: 558px;
+    width: 500px;
+}
+
+.ProjectPost:hover {
+    box-shadow: 0 1px 2px 0 rgba(70, 70, 70, 0.377), 0 6px 15px rgba(68, 68, 68, 0.274);
+    transition: all 0.4s ease-out;
+}
+
+.ProjectImg {
+    object-fit: cover;
+    border-radius: 15px;
+    max-width:460px;
+    max-height:400px;
+    min-width:460px;
+    min-height:400px;
+}
+
+.ProjectTitle {
+    color:crimson;
+}
+
+.ProjectTools {
+    font-size: large;
+    font-style: italic;
+}
+
+.ProjectDesc {
+    color:rgb(54, 54, 54);
+}
+
+.ProjectLink {
+    display: inline-block;
+    margin-top: 10px;
+    background-color: crimson;
+    border-radius: 8px;
+    padding:5px 7px;
+    color:white;
+    text-decoration: none;
+}
+
+.ProjectLink:Hover {
+    background-color: black;
+    transition: all 0.5s ease-out;
+}
+
+input[type="file"] {
+    display: none;
+}

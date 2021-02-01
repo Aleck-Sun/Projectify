@@ -1,0 +1,50 @@
+.home {
+    height: 90vh;
+    width: 100vw;
+    background-image: url('../images/lights3.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 2%;
+    padding-left: 3.8vw;
+}
+
+.home-logo {
+    cursor:default;
+    font-family: 'Lobster', cursive;
+}
+
+.home:hover .home-logo {
+    cursor:default;
+    color:crimson;
+    transition: all 0.5s ease-out;
+}
+
+.home-title {
+    cursor:default;
+    font-size: 7vw;
+}
+
+.home-desc {
+    cursor:default;
+    font-size: 1.8vw;
+}
+
+.start-button {
+    width: 15vw;
+    padding-top: 2.5%;
+    padding-bottom: 2.5%;
+    font-size: 2vw;
+    color: white;
+    height: 5vh;
+}
+
+.start-button:hover {
+    font-size: 2.1vw;
+    color: crimson;
+    transition: all 0.2s ease-out;
+}

@@ -1,0 +1,54 @@
+.submissionForm {
+    padding:5vh;
+    width:50vw;
+    display:flex;
+    flex-direction: column;
+}
+
+.formLabel{
+    font-size: 2vh;
+    padding:2vh 0 1vh 0;
+}
+
+.formText {
+    border-radius: 5px;
+    font-size: 2vh;
+    padding:1vh;
+}
+
+.submitBtn {
+    margin-top: 3vh;
+    margin-bottom: 3vh;
+    border: 0px;
+    border-radius: 15px;
+    background-color: crimson;
+    color: white;
+    font-size: 2vh;
+    width:12vh;
+    height:4vh;
+}
+
+.submitBtn:hover {
+    background-color: black;
+    transition: all 0.5s ease-out;
+}
+
+.uploadBtn {
+    font-size: 2vh;
+    color:white;
+    border-radius:15px;
+    width:20vh;
+    height:4vh;
+    background-color: crimson;
+    border: 0px;
+    display: inline-block;
+    cursor: pointer;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.uploadBtn:hover {
+    background-color: black;
+    transition: all 0.5s ease-out;
+}
