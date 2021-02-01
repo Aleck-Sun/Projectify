@@ -31,6 +31,10 @@ app.use(cors());
 app.use(bodyParser.json({limit: '50mb'}));
 app.use('/posts', postRoutes);
 
+app.get('/', (req, res) => {
+    res.send('Hello Projectify API');
+});
+
 // Import mongoose models
 const { Post } = require("./models/post");
 
