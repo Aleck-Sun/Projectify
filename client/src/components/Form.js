@@ -54,12 +54,12 @@ const Form = () => {
             <label htmlFor="pLink" className="formLabel">
                 Project Link:
             </label>
-            <input type="text" className="formText" name="pCode" placeholder="Enter project link"
+            <input type="text" className="formText" name="pLink" placeholder="Enter project link"
             value={ postData.pLink } onChange={(e) => setPostData({ ... postData, pLink: e.target.value })} />
             <label htmlFor="pCode" className="formLabel">
                 Post Code:
             </label>
-            <input type="text" className="formText" name="pLink" placeholder="Enter post code"
+            <input type="text" className="formText" name="pCode" placeholder="Enter post code"
             value={ postData.pCode } onChange={(e) => setPostData({ ... postData, pCode: e.target.value })} />
             <label htmlFor="pImg" className="formLabel">
                     Project Image:
